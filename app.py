@@ -22,7 +22,7 @@ print(f'The number 50 exists {numbers.count(50)} times in the numbers list.') ""
 
 numberList = [5, 1010, 2, 5, 2, 777, 2, 8, -2, 99, 3]
 print(numberList)
-biggest = Utils.FindMax(numbers=numberList)
+biggest = Utils.Utility.FindMax(numbers=numberList)
 
 print()
 
